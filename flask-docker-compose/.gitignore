@@ -1,0 +1,49 @@
+# --- Python ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+*.log
+
+# --- Entornos virtuales ---
+lab7/
+venv/
+env/
+.venv/
+
+# --- Archivos de entorno y configuración local ---
+*.env
+.env.*
+!example.env
+
+# --- Archivos y carpetas de Docker ---
+*.pid
+*.seed
+*.bak
+*.swp
+docker-compose.override.yml
+
+# --- Archivos de dependencias ---
+Pipfile
+Pipfile.lock
+poetry.lock
+
+# --- Archivos del sistema ---
+.DS_Store
+Thumbs.db
+
+# --- Archivos de IDEs ---
+.vscode/
+.idea/
+*.iml
+
+# --- Archivos temporales ---
+*.tmp
+*.temp
+*.bak
+
+# --- Archivos de datos ---
+*.csv
+*.db
+*.sqlite
